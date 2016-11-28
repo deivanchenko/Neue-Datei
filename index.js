@@ -7,6 +7,7 @@ var col = {
 }
 }
 function draw() {
+	createCanvas(400,200);
 randomSeed(99);
 for (var i=0; i < 100; i++) {
   var r = random(0,100,10);
