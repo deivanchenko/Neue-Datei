@@ -7,7 +7,7 @@ var col = {
 }
 
 function draw() {
-  createCanvas(100,100);
+  createCanvas(40,40);
   background(214);
   col.r = random(100, 155);
   col.g = random(0, 40);
