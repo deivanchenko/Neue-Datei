@@ -8,6 +8,7 @@ var col = {
 }
 
 function draw() {
+  createCanvas(200,200);
   background(214);
   col.r = random(100, 155);
   col.g = random(0, 40);
